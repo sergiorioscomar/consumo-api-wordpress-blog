@@ -21,6 +21,7 @@ Este tipo de integración es ideal para mantener tu sitio actualizado automátic
 - **cURL**: Para realizar peticiones HTTP a la API de WordPress.
 - **Blade**: Motor de plantillas para renderizar los datos.
 - **Bootstrap 5**: Para el diseño de las tarjetas y el layout responsivo.
+- **Postman**: Para pruebas de endpoints, validar qué campos devolvía la API.
 
 ---
 
@@ -74,6 +75,9 @@ resources/
 - Si el blog no tiene imágenes destacadas, se mostrará una imagen por defecto.
 
 - Podés modificar el parámetro per_page para mostrar más publicaciones.
+
+## 📌 Consejo extra: 
+- Antes de integrarlo directamente en Laravel, probé el endpoint con **Postman**. Esto me permitió validar qué campos devolvía la API, cómo estaba estructurada la información y qué datos necesitaba extraer (como featured_media, excerpt, title, etc.). Es una buena práctica para evitar errores innecesarios durante el desarrollo.
 
 ## 🧠 Autor
 - Este ejemplo fue desarrollado por Sergio Rios, como parte de un proyecto para un cliente y también fue integrado en su propio sitio personal.
